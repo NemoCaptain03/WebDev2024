@@ -28,9 +28,15 @@
             <img src="../assets/images/logo-g12.svg" alt="Group Logo" />
           </a>
 
-          <form class="search-bar" action="search_results.html" method="get">
+          <form
+            class="search-bar"
+            id="searchForm"
+            action="search_results.html"
+            method="get"
+          >
             <input
               type="text"
+              id="searchInput"
               name="query"
               placeholder="Search for listings..."
               required
@@ -38,6 +44,27 @@
             <button type="submit"><i class="fas fa-search"></i></button>
           </form>
 
+          <div class="menu">
+            <ul>
+              <li>
+                <a href="#">Buy<i class="fas fa-angle-down"></i></a>
+                <ul>
+                  <li><a href="house.html">House</a></li>
+                  <li><a href="flat.html">Flat</a></li>
+                  <li><a href="listings_buy.html">All Listings</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Rent<i class="fas fa-angle-down"></i></a>
+                <ul>
+                  <li><a href="house_rent.html">House</a></li>
+                  <li><a href="flat_rent.html">Flat</a></li>
+                  <li><a href="listings_rent.html">All Listings</a></li>
+                </ul>
+              </li>
+              <li><a href="sell.html">Sell</a></li>
+            </ul>
+          </div>
           <div class="menu">
             <ul>
               <li>
@@ -81,11 +108,36 @@
         </section>
       </nav>
     </header>
+          <ul>
+            <li><a href="saved.html">Saved Property</a></li>
+            <li>
+              <a href="#">Help<i class="fas fa-angle-down"></i></a>
+              <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="contact.html#faq">FAQ</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Account <i class="fas fa-angle-down"></i></a>
+              <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </header>
 
+    <!-- header section ends -->
     <!-- header section ends -->
 
     <!-- listings section starts  -->
+    <!-- listings section starts  -->
 
+    <section class="listings">
+      <h1 class="heading">all properties</h1>
     <section class="listings">
       <h1 class="heading">all properties</h1>
 
