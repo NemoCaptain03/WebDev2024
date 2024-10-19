@@ -1,15 +1,14 @@
-USTH ICT 2024 Web Application Development
-=====================================================
+# USTH ICT 2024 Web Application Development
 
 Students are expected to:
 
-* Fork this repository to your github account
-* Update student name and ID to this README file
-* Push your commits regularly, with proper commit messages
+- Fork this repository to your github account
+- Update student name and ID to this README file
+- Push your commits regularly, with proper commit messages
 
-Student Info
-=======================
-* Name: Ứng Quốc Thành Đạt
-* ID: BA12-045
-* Group ID: 12
-* Project Name: Real Estate Listings Website
+# Student Info
+
+- Name: Ứng Quốc Thành Đạt
+- ID: BA12-045
+- Group ID: 12
+- Project Name: Real Estate Listings Website
